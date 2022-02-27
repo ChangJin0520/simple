@@ -8,7 +8,7 @@
 import axios from 'axios';
 
 const login = () => {
-    axios.post('http://47.103.67.54:3000/api/login', (res) => {
+    axios.post('http://47.103.67.54/api/login', (res) => {
         console.log(res);
     })
 }
